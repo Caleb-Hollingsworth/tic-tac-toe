@@ -1,0 +1,24 @@
+body {
+	background-color: darkslategray;
+}
+h1 {
+	text-align: center;
+	color: white;
+}
+.gameboard {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	background-color: black;
+	height: 70vmin;
+	width: 70vmin;
+	padding: 2px;
+	border: 20px solid grey;
+	grid-gap: 10px;
+	margin: 0 auto;
+}
+.grid-item {
+	background-color: rgb(252, 248, 215);
+	text-align: center;
+	border: 1px solid rgba(0, 0, 0, 0.384);
+	font-size: 75px;
+}
